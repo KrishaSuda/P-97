@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Online Library</title>
+        <link href="style.css" rel="stylesheet">
+        <script src="main.js"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="#">My Online Library</a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                  <li><a href="#Classics">Home</a></li>
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        Genres<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#Classics">Classics</a></li>
+                      <li><a href="#Comics">Comics</a></li>
+                      <li><a href="#Detective-and-mystery">Detective-and-mystery</a></li>
+                      <li><a href="#Fantasy">Fantasy</a></li>
+                      <li><a href="#Fiction">Fiction</a></li>
+                      <li><a href="#Historical Fiction">Historical Fiction</a></li>
+                      <li><a href="#Literary Fiction">Literary Fiction</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li onclick="Login()"><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <h2>My Online Library</h2>
+        <br>
+        <section id="Classics">
+            <h3 id="header">Classics</h3>
+            <hr>
+            <span id="display">
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Classics/Autobiography of Benjamin Franklin/the-autobiography-of-benjamin-franklin-92.jpg">
+                        <label class="text">Autobiography of Benjamin Franklin</label>
+                    </a>
+                </div>
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Classics/Incidents in the Life of a Slave Girl/51HTk2ZuVaL.jpg">
+                        <label class="text">Incidents in the Life of a Slave Girl</label>
+                    </a>
+                </div>
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Classics/The Interesting Narrative of the Life of Olaudah Equiano, Or Gustavus Vassa, The African/41rO8-bbpBL.jpg">
+                        <label class="text">The Interesting Narrative of the Life of Olaudah Equiano, ...</label>
+                    </a>
+                </div>
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Classics/the Life of Frederick Douglass/91lTxn6+eAL.jpg">
+                        <label class="text">The Life of Frederick Douglass</label>
+                    </a>
+                </div>
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Classics/Walden/81YGjrEKTXL.jpg">
+                        <label class="text">Walden</label>
+                    </a>
+                </div>
+            </span>
+        </section>
+        <section id="Comics">
+            <h3 id="header">Comics</h3>
+            <hr>
+            <span id="display">
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Comics/Amusing Prose Chap Books/51Bbs6DkOtL.jpg">
+                        <label class="text">Amusing Prose Chap Books</label>
+                    </a>
+                </div>
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Comics/Odd Volume/titlepagem.jpg">
+                        <label class="text">Odd Volume</label>
+                    </a>
+                </div>
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Comics/On Everything/91lxCsbLUpL.jpg">
+                        <label class="text">On Everything</label>
+                    </a>
+                </div>
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Comics/The Newcastle Song Book/51x1Pr24KBL.jpg">
+                        <label class="text">The Newcastle Song Book</label>
+                    </a>
+                </div>
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Comics/The Puzzle King/51bFXNYj4UL.jpg">
+                        <label class="text">The Puzzle King</label>
+                    </a>
+                </div>
+            </span>
+        </section>
+        <section id="Detective-and-mystery">
+            <h3 id="header">Detective and Mystery</h3>
+            <hr>
+            <span id="display">
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Detective and Mystery/A Study In Scarlet/assdfghjj.jpg">
+                        <label class="text">A Study In Scarlet</label>
+                    </a>
+                </div>
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Detective and Mystery/Crime and Punishment/71CcO-jvRUL.jpg">
+                        <label class="text">Crime and Punishment</label>
+                    </a>
+                </div>
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Detective and Mystery/Edgar Allan Poe, Volume 2/download.jpg">
+                        <label class="text">Edgar Allan Poe, Volume 2</label>
+                    </a>
+                </div>
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Detective and Mystery/The Adventures of Sherlock Holmes/917q1pl1VIL.jpg">
+                        <label class="text">The Adventures of Sherlock Holmes</label>
+                    </a>
+                </div>
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Detective and Mystery/The Hound of the Baskervilles/Cover_(Hound_of_Baskervilles,_1902).jpg">
+                        <label class="text">The Hound of the Baskervilles</label>
+                    </a>
+                </div>
+            </span>
+        </section>
+        <section id="Fantasy">
+            <h3 id="header">Fantasy</h3>
+            <hr>
+            <span id="display">
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Fantasy/Alice’s Adventures in Wonderland/91uMrXq+4RL.jpg">
+                        <label class="text">Alice’s Adventures in Wonderland</label>
+                    </a>
+                </div>
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Fantasy/Gulliver’s Travels/51WMkkrz5wL.jpg">
+                        <label class="text">Gulliver’s Travels</label>
+                    </a>
+                </div>
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Fantasy/Peter Pan/81kOfFBL37S.jpg">
+                        <label class="text">Peter Pan</label>
+                    </a>
+                </div>
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Fantasy/Through the Looking-Glass/919ce1WfvLL.jpg">
+                        <label class="text">Through the Looking-Glass</label>
+                    </a>
+                </div>
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Fantasy/Wonderful Wizard of Oz/download.jpg">
+                        <label class="text">Wonderful Wizard of Oz</label>
+                    </a>
+                </div>
+            </span>
+        </section>
+        <section id="Fiction">
+            <h3 id="header">Fiction</h3>
+            <hr>
+            <span id="display">
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Fiction/A Kidnapped Santa Claus/510xxMcVHdL.jpg">
+                        <label class="text">A Kidnapped Santa Claus</label>
+                    </a>
+                </div>
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Fiction/Kidnapped/91+mUWu6OlL.jpg">
+                        <label class="text">Kidnapped</label>
+                    </a>
+                </div>
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Fiction/Oliver Twist/91nOyDA5i9L.jpg">
+                        <label class="text">Peter Pan</label>
+                    </a>
+                </div>
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Fiction/Poirot Investigates/711UT4goRRL.jpg">
+                        <label class="text">Poirot Investigates</label>
+                    </a>
+                </div>
+            </span>
+        </section>
+        <section id="Historical Fiction">
+            <h3 id="header">Historical Fiction</h3>
+            <hr>
+            <span id="display">
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Fantasy/Alice’s Adventures in Wonderland/91uMrXq+4RL.jpg">
+                        <label class="text">Alice’s Adventures in Wonderland</label>
+                    </a>
+                </div>
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Fantasy/Gulliver’s Travels/51WMkkrz5wL.jpg">
+                        <label class="text">Gulliver’s Travels</label>
+                    </a>
+                </div>
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Fantasy/Peter Pan/81kOfFBL37S.jpg">
+                        <label class="text">Peter Pan</label>
+                    </a>
+                </div>
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Fantasy/Through the Looking-Glass/919ce1WfvLL.jpg">
+                        <label class="text">Through the Looking-Glass</label>
+                    </a>
+                </div>
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Fantasy/Wonderful Wizard of Oz/download.jpg">
+                        <label class="text">Wonderful Wizard of Oz</label>
+                    </a>
+                </div>
+            </span>
+        </section>
+        <section id="Horror">
+            <h3 id="header">Literary Fiction</h3>
+            <hr>
+            <span id="display">
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Literary Fiction/Sketches New and Old/SketchesNewAndOld.jpg">
+                        <label class="text">Alice’s Adventures in Wonderland</label>
+                    </a>
+                </div>
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Literary Fiction/The Book of Wonder/81i2-DOkZiL.jpg">
+                        <label class="text">Gulliver’s Travels</label>
+                    </a>
+                </div>
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Literary Fiction/The Collected Works of William Hazlitt, Vol.10/317dcNscd7L.jpg">
+                        <label class="text">Peter Pan</label>
+                    </a>
+                </div>
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Literary Fiction/The Life of Lazarillo de Tormes/81x5he6ocWL.jpg">
+                        <label class="text">Through the Looking-Glass</label>
+                    </a>
+                </div>
+                <div class="book">
+                    <a>
+                        <img id="book_cover" src="Literary Fiction/Writings in The United Amateur/writings-in-the-united-amateur-1915-1922-original-imafzefk85gzghns.jpeg">
+                        <label class="text">Wonderful Wizard of Oz</label>
+                    </a>
+                </div>
+            </span>
+        </section>
+    </body>
+</html>
